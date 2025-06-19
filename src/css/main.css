@@ -546,3 +546,282 @@ margin-bottom: 48px;
     font-size: 14px;
   }
 }
+/* Visuals & Sound Design */
+.design-section{
+    position: relative;
+}
+.design-subtitle{
+    margin-top: 60px;
+        margin-bottom: 40px;
+}
+.design-wrapper{
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    align-items: center;
+}
+.design-text{
+    font-size: 24px;
+    margin-bottom: 24px;
+}
+.design-list{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+.design-item{
+    display: flex;
+    gap: 16px;
+    align-items: center;
+}
+.design-item-text{
+    font-size: 16px;
+    width: 311px;
+    text-align: left;
+}
+@media only screen and (min-width: 1439px) {
+.design-subtitle {
+ margin-top: 80px;
+margin-bottom: 48px;
+}
+.design-wrapper{
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 42px;
+}
+.design-tetx-wrapper{
+    width: 560px;
+}
+.design-text{
+    font-size: 24px;
+    margin-bottom: 40px;
+}
+.design-list{
+    align-items: center;
+}
+.design-item-text{
+    font-size: 20px;
+}
+.design-item{
+ margin-left: auto;
+ margin-right: auto;
+}
+.design-item-text{
+    width: 456px;
+}
+.design-item-one{
+    width: 370px;
+}
+.design-item-two{
+    width: 420px;
+}
+.design-item-three{
+    width: 450px;
+}
+.design-item-four{
+    width: 490px;
+}
+}
+/* For Puzzle Fans */
+.fans-section{
+    position: relative;
+}
+.fans-subtitle{
+    margin-top: 60px;
+        margin-bottom: 40px;
+}
+.fans-text{
+    font-size: 20px;
+    margin-bottom: 40px;
+}
+.fans-img-wrapper{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 16px;
+}
+.fans-list{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+.fans-item{
+    border-radius: 12px;
+        padding: 16px;
+        width: 343px;
+        height: 52px;
+        background: #2c2f7f;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: #f6f6f6;
+}
+@media only screen and (min-width: 1439px) {
+.fans-subtitle {
+margin-top: 80px;
+margin-bottom: 48px;
+}
+.fans-text{
+    font-size: 24px;
+    margin-bottom: 40px;
+}
+.fans-list{
+    flex-direction: row;
+    gap: 28px;
+    justify-content: center;
+    margin-top: -176px;
+}
+.fans-item{
+    width: 140px;
+        height: 160px;
+        font-weight: 700;
+            font-size: 16px;
+}
+}
+/* Global Leaderboards */
+.global-section{
+    position: relative;
+}
+.global-subtitle{
+    margin-top: 60px;
+        margin-bottom: 40px;
+}
+.globals-img{
+    margin-bottom: 24px;
+}
+.globals-text{
+    font-size: 20px;
+    margin-bottom: 24px;
+}
+.global-list{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+.global-item{
+    display: flex;
+    gap: 16px;
+    align-items: center;
+}
+.global-text-item{
+    font-size: 20px;
+}
+@media only screen and (min-width: 1439px) {
+.global-subtitle {
+margin-top: 80px;
+margin-bottom: 48px;
+}
+.global-first-wrapper{
+    display: flex;
+    gap: 48px;
+    justify-content: center;
+    align-items: center;
+}
+.globals-img {
+    margin-bottom: 0;
+}
+.global-wrapper{
+    display: flex;
+    flex-direction: column;
+}
+.globals-text{
+    font-size: 24px;
+    text-align: left;
+    width: 529px;
+    margin-bottom: 40px;
+}
+}
+/* Contact */
+.contact-section{
+    position: relative;
+}
+.contact-subtitle{
+    margin-top: 60px;
+        margin-bottom: 40px;
+        font-size: 32px;
+}
+.contact-wrapper{
+    border: 4px solid #2c2f7f;
+        border-radius: 16px;
+        padding: 24px 24px 0px 24px;
+        width: 343px;
+        height: 380px;
+        position: relative;
+}
+.contact-list{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    margin-bottom: 24px;
+}
+.contact-item{
+    display: flex;
+    gap: 16px;
+    align-items: center;
+}
+.contact-text-item,
+.contact-link{
+    text-align: left;
+}
+.icon-wrapper{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.icon-text{
+    font-weight:700;
+    width: 100px;
+}
+.contact-icon{
+    cursor: pointer;
+}
+.icon-list{
+    display: flex;
+    gap: 16px;
+}
+.contact-picture-wrapper{
+    display: flex;
+    gap: 26px;
+position: absolute;
+bottom: 0;
+}
+@media only screen and (min-width: 1439px) {
+.contact-container{
+    padding-bottom: 0;
+}
+    .contact-subtitle {
+        margin-top: 80px;
+        margin-bottom: 126px;
+        font-size: 48px;
+}
+.contact-wrapper{
+    width: 1062px;
+        height: 200px;
+        margin-left: auto;
+        margin-right: auto;
+        padding: 6px 24px;
+        bottom: 0;
+}
+.contact-picture-wrapper {
+  gap: 600px;
+}
+.contact-list{
+    gap: 24px;
+    width: 547px;
+    margin-left: auto;
+    margin-right: auto;
+    align-items: center;
+}
+.icon-wrapper{
+    justify-content: center;
+    gap: 21px;
+}
+.icon-text{
+    font-weight: 400;
+        font-size: 16px;
+        width: 207px;
+}
+.footer-icon{
+    font-size: 16px;
+}
+}
