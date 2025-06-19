@@ -17,9 +17,10 @@ h2{
 h3{
   font-family: "Luckiest Guy", sans-serif;
     font-weight: 400;
-    font-size: 32px;
+    font-size: 36px;
     text-align: center;
     color: #2c2f7f;
+    line-height: 1;
 }
 @media only screen and (min-width: 1439px) {
   body{

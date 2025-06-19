@@ -99,7 +99,7 @@
 }
 .about-subtitle{
     margin-top: 60px;
-    margin-bottom: 30px;
+    margin-bottom: 40px;
 }
 .about-text{
     margin-top: 24px;
@@ -128,6 +128,7 @@ align-items: center;
     height: 118px;
 }
 .about-subtitle{
+    margin-top: 80px;
     margin-bottom: 48px;
 }
 .about-img{
@@ -150,4 +151,398 @@ align-items: center;
 .about-text-item{
     width: 580px;
 }
+}
+/* How to Play */
+.play-section{
+    position: relative;
+}
+.play-subtitle {
+    margin-top: 60px;
+    margin-bottom: 40px;
+}
+.play-text{
+    font-family: "Biryani", sans-serif;
+        font-weight: 400;
+        font-size: 24px;
+        line-height: 1.3;
+        text-align: center;
+        color: #222;
+        margin-bottom: 24px;
+}
+.play-list{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    margin-bottom: 24px;
+}
+.play-item{
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    }
+.play-number{
+    border-radius: 100px;
+        padding: 8px;
+        width: 48px;
+        height: 48px;
+        background: #2c2f7f;
+        font-family: "Luckiest Guy", sans-serif;
+            font-weight: 400;
+            font-size: 32px;
+            line-height: 1;
+            text-align: center;
+            color: #ffd811;
+}
+.play-item-tetx{
+    font-family: "Biryani", sans-serif;
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 1.4;
+        color: #222;
+        text-align: left;
+        width: 279px;
+}
+@media only screen and (min-width: 1439px) {
+ .play-subtitle{
+    margin-top: 80px;
+    margin-bottom: 76px;
+ }
+ .play-text{
+    margin-bottom: 48px;
+    width: 614px;
+    text-align: left;
+    margin-left: 150px;
+ }
+ .play-list{
+    width: 655px;
+    margin-left: 150px;
+ }
+ .play-item-tetx{
+    width: 551px;
+    font-size: 18px;
+    margin-bottom: 0;
+ }
+ .play-img{
+    margin-left: 850px;
+    margin-top: -410px;
+ }
+}
+/* Key Features */
+.key-section{
+    position: relative;
+}
+.key-subtitle{
+    margin-top: 60px;
+        margin-bottom: 40px;
+}
+.key-list{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+.key-item{
+    display: flex;
+    flex-direction: column;
+    border: 2px solid #2c2f7f;
+        border-radius: 16px;
+        padding: 16px;
+        width: 343px;
+        height: 102px;
+}
+.key-item-wrapper{
+    display: flex;
+  gap: 16px;
+  align-items: center;
+  margin-bottom: 8px;
+}
+.key-item-title{
+    font-family: "Biryani", sans-serif;
+        font-weight: 900;
+        font-size: 18px;
+        line-height: 1.4;
+        text-align: center;
+        color: #2c2f7f;
+        width: 253px;
+}
+.key-desk{
+    display: none;
+}
+@media only screen and (min-width: 1439px) {
+ .key-subtitle{
+    margin-top: 80px;
+    margin-bottom: 48px;
+ }
+ .key-list{
+flex-direction: row;
+gap: 24px;
+ }
+ .key-item{
+    border: 2px solid #2c2f7f;
+        border-radius: 16px;
+        padding: 16px;
+        width: 190px;
+        height: 218px;
+ }
+ .key-item-wrapper{
+    flex-direction: column;
+    margin-bottom: 16px;
+ }
+ .key-item-title{
+    width: 158px;
+ }
+ .key-desk{
+    display: block;
+ }
+ .key-img{
+    width: 64px;
+    height: 64px;
+ }
+ .key-item-text{
+    font-size: 14px;
+    width: 158px;
+ }
+}
+/* Welcome to the 3D Toy World */
+.welcome-section{
+    position: relative;
+}
+.welcome-subtitle{
+    margin-top: 60px;
+        margin-bottom: 40px;
+}
+.welcome-img{
+    margin-bottom: 24px;
+}
+.welcome-text{
+    font-weight: 700;
+        font-size: 16px;
+        margin-bottom: 24px;
+}
+.welcome-list{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+.welocome-item{
+    display: flex;
+    gap: 16px;
+    align-items: center;
+}
+.welcome-item-text{
+    font-size: 20px;
+}
+@media only screen and (min-width: 1439px) {
+ .welcome-subtitle{
+    margin-top: 80px;
+    margin-bottom: 48px;
+ }
+ .welcome-wrapper{
+    display: flex;
+      gap: 48px;
+    align-items: center;
+ }
+ .welcome-img{
+    margin-bottom: 0;
+    width: 480px;
+        height: 360px;
+ }
+ .welcome-second-wrapper{
+    width: 534px;
+        height: 332px;
+ }
+ .welcome-text{
+    margin-bottom: 40px;
+    width: 534px;
+    text-align: left;
+ }
+}
+/* Levels & Progression */
+.levels-section{
+    position: relative;
+}
+.levels-subtitle{
+    margin-top: 60px;
+        margin-bottom: 36px;
+}
+.levels-text{
+    font-size: 22px;
+    line-height: 1.3;
+    margin-bottom: 40px;
+}
+.levels-picture-wrapper{
+    display: flex;
+    justify-content: space-between;
+    width: 364px;
+        height: 160px;
+        margin-left: -10px;
+        margin-right: auto;
+        margin-bottom: 16px;
+}
+.levels-list{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+.levels-item{
+    border-radius: 12px;
+        padding: 16px;
+        width: 343px;
+        height: 60px;
+        background: #2c2f7f;
+        font-weight: 700;
+            font-size: 20px;
+            color: #f6f6f6;
+}
+@media only screen and (min-width: 1439px) {
+.levels-subtitle {
+margin-top: 80px;
+margin-bottom: 48px;
+} 
+.levels-text{
+    font-size: 24px;
+    line-height: 1.4;
+    width: 723px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.levels-picture-wrapper{
+    width: 1250px;
+        margin-left: 6px;
+}
+.levels-list{
+    flex-direction: row;
+    gap: 28px;
+    justify-content: center;
+    margin-top: -176px;
+}
+.levels-item{
+        width: 150px;
+        height: 160px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+  
+}
+}
+/* Boosters & Power Tools */
+.boosters-section{
+    position: relative;
+}
+.boosters-subtitle{
+    margin-top: 60px;
+        margin-bottom: 40px;
+}
+.boosters-text{
+    font-size: 24px;
+    margin-top: 24px;
+    margin-bottom: 24px;
+}
+.boosters-list{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+.boosters-item{
+    display: flex;
+    gap: 16px;
+    align-items: center;
+}
+.boosters-item-text{
+    font-size: 16px;
+    width: 311px;
+    text-align: left;
+}
+.boosters-span{
+    font-weight: 700;
+}
+@media only screen and (min-width: 1439px) {
+ .boosters-subtitle{
+    margin-top: 80px;
+        margin-bottom: 48px;  
+ }
+ .boosters-wrapper{
+    display: flex;
+    gap: 48px;
+    align-items: center;
+ }
+ .boosters-text{
+    text-align: left;
+    width: 645px;
+    margin-top: 0;
+    margin-bottom: 40px;
+ }
+ .boosters-item-text{
+    font-size: 20px;
+    width: 630px;
+ }
+}
+/* Multiple Play Modes */
+.modes-section{
+    position: relative;
+}
+.modes-subtitle{
+    margin-top: 60px;
+        margin-bottom: 40px;
+        width: 293px;
+        margin-left: auto;
+        margin-right: auto;
+}
+.modes-text{
+    font-size: 22px;
+    margin-bottom: 40px;
+}
+.modes-list{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 16px;
+}
+.modes-item{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    border: 2px solid #2c2f7f;
+        border-radius: 16px;
+        padding: 16px;
+        width: 163px;
+        height: 194px;
+        align-items: center;
+}
+.modes-item-title{
+    font-weight: 900;
+        font-size: 18px;
+        color: #2c2f7f;
+}
+.modes-item-text{
+    width: 131px;
+}
+@media only screen and (min-width: 1439px) {
+  .modes-subtitle{
+    margin-top: 80px;
+        margin-bottom: 48px;
+        width: 600px;
+
+  }
+  .modes-text{
+    font-size: 24px;
+  }
+  .modes-list{
+    flex-wrap: nowrap;
+    justify-content: center;
+  }
+  .modes-item{
+    width: 240px;
+        height: 198px;
+        gap: 16px;
+  }
+  .modes-mob{
+    display: none;
+  }
+  .modes-img{
+    width: 64px;
+        height: 64px;
+  }
+  .modes-item-text{
+    width: 208px;
+    font-size: 14px;
+  }
 }
