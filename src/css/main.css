@@ -2,7 +2,7 @@
 .hero-section{
     background-color: #2c2f7f;
     background-image: url("/img/hero/mob.png");
-    background-position: top 200px center;
+    background-position: top 220px center;
     background-size: 342px 337px;
     background-repeat: no-repeat;
 }
@@ -21,6 +21,7 @@
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 16px;
+    margin-top: 20px;
 }
 .hero-big-text{
     font-family: "Luckiest Guy", sans-serif;
@@ -37,9 +38,22 @@
 .hero-link{
     cursor: pointer;
     width: 288px;
-    height: 80px;   
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+    gap: 10px;  
     margin-left: auto;
     margin-right: auto; 
+    border: 1px solid #2d2d2d;
+    border-radius: 40px;
+    background-color: #ffd811;
+    box-shadow: 0 4px 4px 0 rgba(45, 45, 45, 0.5);
+    transition: background-color 0.3s ease;
+}
+.hero-link:hover,
+.hero-link:active{
+background-color: ffe24f;
 }
 .hero-desk{
     display: none;
@@ -47,7 +61,7 @@
 @media only screen and (min-width: 1439px) {
   .hero-section{
     background-image: url("/img/hero/desk.png");
-    background-position: top 40px center;
+    background-position: top 70px center;
     background-size: 1280px 686px;
     height: 873px;
   }
@@ -59,7 +73,7 @@
     -webkit-text-stroke: 3px #2c2f7f;
     margin-left: 20px;
     text-align: left;
-    margin-top: 350px;
+    margin-top: 380px;
     margin-bottom: 263px;
   }
   .hero-container{
@@ -68,7 +82,7 @@
   .hero-link{
     position: absolute;
     left: 230px;
-    bottom: 350px;
+    bottom: 320px;
   }
   .hero-text{
     font-size: 16px;
