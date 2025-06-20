@@ -53,7 +53,7 @@
 }
 .hero-link:hover,
 .hero-link:active{
-background-color: ffe24f;
+    background-color: #ffe24f;
 }
 .hero-desk{
     display: none;

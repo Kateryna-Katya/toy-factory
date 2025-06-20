@@ -1,0 +1,72 @@
+.cookie-popup {
+    position: fixed;
+    bottom: 30px;
+    left: 48%;
+    transform: translateX(-48%);
+    background: #2c2f7f;
+    padding: 40px 16px;
+    z-index: 1000;
+    width: 374px;
+    height: auto;
+    text-align: center;
+    display: none;
+}
+
+.cookie-class {
+    font-size: 16px;
+    color: #f6f6f6;
+    width: 343px;
+}
+
+.cookie-buttons {
+    margin-top: 32px;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.btn-accept {
+    border: none;
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
+        background: #f6f6f6;
+    border-radius: 12px;
+    padding: 10px;
+    width: 148px;
+    height: 45px;
+    font-weight: 700;
+        font-size: 14px;
+        color:#222;
+    box-sizing: border-box;
+}
+
+.btn-decline {
+    border: none;
+    border-bottom: 2px solid #f6f6f6;
+    padding: 10px;
+    width: 151px;
+        height: 45px;
+        color:#f6f6f6;
+    background: inherit;
+    box-sizing: border-box;
+
+}
+
+@media screen and (min-width: 1439px) {
+    .cookie-popup {
+        padding: 40px 175px;
+        width: 1439px;
+        height: 162px;
+    }
+.cookie-class{
+    width: 921px;
+    margin-left: auto;
+    margin-right: auto;
+}
+    .cookie-buttons {
+        gap: 80px;
+    }
+.btn-accept,
+.btn-decline{
+    font-size: 14px;
+}
+}
